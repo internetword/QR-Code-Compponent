@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body {
+  block-size: 100%;
+}
+
+
+body {
+  margin: 0;
+  align-content: center;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
+
+figure {
+  margin: auto;
+  inline-size: 88%;
+  border-radius: 15px;
+  background-color: white;
+  padding: .9rem;
+  box-shadow: 1px 1px 10px 1px hsl(220, 15%, 85%);
+}
+
+img {
+  inline-size: 100%;
+  border-radius: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  inset-block-end: 0;
+}
+
+a {
+  hsl(218, 44%, 22%);
+}
+
+h1 {
+   font-size: 1.3rem; 
+}
+
+figcaption {
+  margin: 1.1em;
+}
+
+@media (width >= 907.5px) {
+  figure {
+    inline-size: 20%;
+  }
+}
